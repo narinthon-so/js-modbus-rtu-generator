@@ -62,7 +62,6 @@ class ModbusSlave {
     }
 }
 
-let slave1 = new ModbusSlave(0x02);
-// let self = this;
+let slave1 = new ModbusSlave(0x01);
 console.log(slave1.modbusRTUGenerator(0x4, 0x0, 0x2));
 
